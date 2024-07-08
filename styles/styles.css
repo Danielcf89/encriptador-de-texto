@@ -132,6 +132,13 @@
     text-align: center;
 }
 
+.botoncopiar{
+    display: none; 
+}
+   
+    
+
+
 .EncryptarBoton:hover,
 .DesencriptarBoton:hover{
     margin: 0.3;
@@ -139,6 +146,9 @@
     padding: 1.8%;
 
 }
+
+
+
 
 .encriptado{
     display: flex;
@@ -200,10 +210,24 @@
     top: 15%;
 }
 
-@media (max-width: 57.5em){
+.footer{
+    background-color: var(--color-2);
+    padding: 15
+    px;
+    color: #000;
+    text-align: center;
+    font-family: var(--fuente-Inter);
+    font-weight: 400;
+
+
+}
+
+/*@media (max-width: 57.5em) */
+@media (max-width: 1300px){
     .container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        width: auto;
     }
     
      .encriptar{
@@ -236,9 +260,10 @@
     }
 
     .EncryptarBoton, .DesencriptarBoton{
-        width: 48;
+        width: auto;
         border-radius: 16px;
     }
+
     .EncryptarBoton:hover, .DesencriptarBoton:hover{
         margin: 0.3%;
         width: 47.5;
@@ -253,7 +278,7 @@
     
     }
     .mensaje-encriptado{
-        width: 100%;
+        width: auto;
         top: 5%;
 
 
@@ -265,14 +290,20 @@
         visibility: hidden;
 
     }
+    .titulo-mensaje{
+        width: auto;
+    }
+
+    .parrafo{
+        width: auto;
+    }
 
 
 
-
+   
 
 
 
 }  
-
 
 
