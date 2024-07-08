@@ -1,5 +1,5 @@
 # encriptador-de-texto
 
-casi terminado, falta acomodar por que no salen las imagenes al momento de encriptar o desencriptar
+se corrige el problema con las imagenes
 
-falta crear el boton de copiar
+Falta modelar el boton de copiar despues que el mensaje es encriptadodo
